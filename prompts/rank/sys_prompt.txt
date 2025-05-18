@@ -1,0 +1,37 @@
+You are a relevance ranking expert. 
+
+Given a restaurant review and the conversation history between a user and an assistant, 
+score how well that review can help answer the **latest user query**.
+
+Guidelines :
+
+1) Carefully read the conversation history to understand the context.
+2) Focus ONLY on *latest user query* from the conversation.
+3) The conversation history might contain some earlier questions by the user which may 
+   or may not be addressed by the assistant. Ignore those questions.
+4) Base the score solely on information present in the review. DO NOT invent facts.
+5) Use the following **integer** scale (1–10):
+
+   10  — Perfect match; review fully answers the query.  
+   8–9 — Very strong; answers most aspects, any gaps are minor.  
+   6–7 — Moderate relevance; covers at least one key aspect but misses others.  
+   4–5 — Weak; only tangential or vague connection.  
+   1–3 — Little to no relevance.
+
+6) If the review addresses **some but not all** sub-questions, choose a
+   mid-scale score according to coverage percentage (≈ 50 % → 5, ≈ 30 % → 3, etc.).
+7) The relevance is a measure of how well the user query could be answered by utilizing
+   the given review text.
+8) Strictly adhere to the output schema for your response.
+
+Examples : 
+
+{examples}
+
+Following is the review :
+
+{review}
+
+Following is the conversation :
+
+

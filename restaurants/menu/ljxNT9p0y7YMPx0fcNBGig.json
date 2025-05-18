@@ -1,0 +1,29 @@
+{
+    "Seafood" : [
+        {"title":"Coconut Shrimp","description":"Hand breaded with Coconut Panko Breading and pina coloda dipping sauce.","price":32.50},
+        {"title":"Blackened Salmon Snow Peas Risotto","description":"","price":41.60},
+        {"title":"Salmon Filet Snow Peas Risotto","description":"","price":33.0},
+        {"title":"Sea Scallops Pasta","description":"5 Large Pan Seared Sea Scallops set atop a bed of linguine, tossed with white wine butter sauce, bacon, spinach, and artichoke hearts.","price":49.40},
+        {"title":"Shrimp Scampi Entree","description":"Served over a bed of linguine noodles in a garlic and white wine butter sauce.","price":39.0},
+        {"title":"Scallops & Shrimp With Portobello & Asparagus","description":"Fresh scallops & shrimp, sliced Portobello mushrooms and asparagus sautéed in a garlic and white wine butter sauce. Served over a bed of linguine noodles. (may also be prepared without the linguine noodles)","price":49.40}
+    ],
+    
+    "Bottle Champagne And Cremants" : [
+        {"title":"Perrier Jouet","description":"","price":123.50},
+        {"title":"Dom Perignon 2010","description":"","price":390.0},
+        {"title":"Moet & Chandon Imperial Brut","description":"","price":123.50},
+        {"title":"Piper-Heidsieck Cuvee Brut","description":"","price":117.0}
+    ],
+
+    "Sandwiches" : [
+        {"title":"Italian Meatball Sub","description":"Italian Meatballs topped with Tony's homemade meat sauce and mozzarella cheese on fresh Duke's bread.","price":18.20},
+        {"title":"Grilled Chicken Sandwich","description":"Marinated grilled chicken breast, sauteed mushroom and onions, swiss cheese and a side of garlic parmesan mayo. Served with salad or fries.","price":18.20},
+        {"title":"Tony's Steakhouse Burger","description":"Premium steakhouse blended burger, sauteed mushrooms and onions, swiss cheese and a side of parmesan garlic mayo. Served with fries or salad","price":14.0}
+    ],
+
+    "Salad And Soup" : [
+        {"title":"Small Caesar Salad","description":"Romaine, Croutons, Blue Cheese Crumbles and our Famous Caesar Dressing","price":6.50},
+        {"title":"Small Italian House Salad","description":"Lettuce, onion, cheese, tomato & a pepperoincini pepper","price":5.20},
+        {"title":"Lobster Bisque Soup","description":"","price":7.80}
+    ]
+}

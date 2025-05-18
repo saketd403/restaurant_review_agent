@@ -1,0 +1,20 @@
+1) "review": "The patio seating under string-lights was gorgeous, and heat lamps kept us warm on a cool night.",
+   "latest_user_query": "Do they have outdoor seating?"
+
+   Response : 
+   "is_relevant": True,
+   "reasoning": "Mentions patio seating directly answering the question."
+
+2) "review": "Our burgers arrived lukewarm, and the brioche buns were soggy—disappointing overall.",
+   "latest_user_query": "How are the vegetarian options?"
+
+   Response :
+   "is_relevant": False,
+   "reasoning": "Talks only about meat burgers; nothing on vegetarian dishes."
+
+3) "review_text": "The place gets really lively after 8 p.m.—a live band plays most nights and we had to raise our voices to chat. We only ordered drinks, so I can’t speak to the food.",
+   "latest_user_query": "Are there good vegan options and is the ambiance loud?"
+   
+   Response :
+   "relevance": True,
+   "reasoning": "Review confirms the ambiance is loud but gives no info on vegan options—partial coverage."

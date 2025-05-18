@@ -1,0 +1,4 @@
+route: "prompts/route"
+filter: "prompts/filter"
+rank: "prompts/rank"
+consolidate: "prompts/consolidate"
